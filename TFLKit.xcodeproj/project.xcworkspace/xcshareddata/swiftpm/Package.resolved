@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "APIKit",
+        "repositoryURL": "https://github.com/JeevanThandi/APIKit",
+        "state": {
+          "branch": "master",
+          "revision": "95a223ac71a3d7e523f07b4b21c95ec4708cc6ce",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

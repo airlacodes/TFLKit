@@ -3,13 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5C8E34F1237F7A14003B0A2D /* TFLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E34E7237F7A13003B0A2D /* TFLKit.framework */; };
 		5C8E34F6237F7A14003B0A2D /* TFLKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E34F5237F7A14003B0A2D /* TFLKitTests.swift */; };
 		5C8E34F8237F7A14003B0A2D /* TFLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8E34EA237F7A13003B0A2D /* TFLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8E3502237F7A23003B0A2D /* TFLKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3501237F7A23003B0A2D /* TFLKit.swift */; };
+		5C8E3505237F7C2B003B0A2D /* APIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C8E3504237F7C2B003B0A2D /* APIKit */; };
+		5C8E351B237F8624003B0A2D /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E350A237F8624003B0A2D /* APIError.swift */; };
+		5C8E351C237F8624003B0A2D /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E350B237F8624003B0A2D /* APIModel.swift */; };
+		5C8E351D237F8624003B0A2D /* APIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8E350C237F8624003B0A2D /* APIKit.h */; };
+		5C8E351E237F8624003B0A2D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E350D237F8624003B0A2D /* Result.swift */; };
+		5C8E351F237F8624003B0A2D /* RequestSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E350F237F8624003B0A2D /* RequestSender.swift */; };
+		5C8E3520237F8624003B0A2D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3510237F8624003B0A2D /* HTTPMethod.swift */; };
+		5C8E3521237F8624003B0A2D /* SomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3511237F8624003B0A2D /* SomeModel.swift */; };
+		5C8E3522237F8624003B0A2D /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3512237F8624003B0A2D /* APICall.swift */; };
+		5C8E3523237F8624003B0A2D /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3514237F8624003B0A2D /* Demo.swift */; };
+		5C8E3524237F8624003B0A2D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3515237F8624003B0A2D /* API.swift */; };
+		5C8E3525237F8624003B0A2D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3516237F8624003B0A2D /* Observable.swift */; };
+		5C8E3526237F8624003B0A2D /* APICallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3517237F8624003B0A2D /* APICallback.swift */; };
+		5C8E3528237F8624003B0A2D /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3519237F8624003B0A2D /* Call.swift */; };
+		5C8E3529237F8624003B0A2D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E351A237F8624003B0A2D /* Endpoint.swift */; };
+		5C8E3565237F8B0A003B0A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3564237F8B0A003B0A2D /* AppDelegate.swift */; };
+		5C8E3569237F8B0A003B0A2D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E3568237F8B0A003B0A2D /* FirstViewController.swift */; };
+		5C8E356E237F8B0A003B0A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8E356C237F8B0A003B0A2D /* Main.storyboard */; };
+		5C8E3570237F8B0B003B0A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8E356F237F8B0B003B0A2D /* Assets.xcassets */; };
+		5C8E3573237F8B0B003B0A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8E3571237F8B0B003B0A2D /* LaunchScreen.storyboard */; };
+		5C8E357E237F8B0B003B0A2D /* TFLKitClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E357D237F8B0B003B0A2D /* TFLKitClientTests.swift */; };
+		5C8E358D237F9E6D003B0A2D /* TFLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E34E7237F7A13003B0A2D /* TFLKit.framework */; };
+		5C8E358E237F9E6D003B0A2D /* TFLKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E34E7237F7A13003B0A2D /* TFLKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +44,28 @@
 			remoteGlobalIDString = 5C8E34E6237F7A13003B0A2D;
 			remoteInfo = TFLKit;
 		};
+		5C8E357A237F8B0B003B0A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C8E34DE237F7A13003B0A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8E3561237F8B0A003B0A2D;
+			remoteInfo = TFLKitClient;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C8E358F237F9E6D003B0A2D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C8E358E237F9E6D003B0A2D /* TFLKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5C8E34E7237F7A13003B0A2D /* TFLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +74,34 @@
 		5C8E34F0237F7A14003B0A2D /* TFLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8E34F5237F7A14003B0A2D /* TFLKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLKitTests.swift; sourceTree = "<group>"; };
 		5C8E34F7237F7A14003B0A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8E3501237F7A23003B0A2D /* TFLKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLKit.swift; sourceTree = "<group>"; };
+		5C8E350A237F8624003B0A2D /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		5C8E350B237F8624003B0A2D /* APIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		5C8E350C237F8624003B0A2D /* APIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKit.h; sourceTree = "<group>"; };
+		5C8E350D237F8624003B0A2D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5C8E350F237F8624003B0A2D /* RequestSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSender.swift; sourceTree = "<group>"; };
+		5C8E3510237F8624003B0A2D /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5C8E3511237F8624003B0A2D /* SomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeModel.swift; sourceTree = "<group>"; };
+		5C8E3512237F8624003B0A2D /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		5C8E3514237F8624003B0A2D /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		5C8E3515237F8624003B0A2D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5C8E3516237F8624003B0A2D /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		5C8E3517237F8624003B0A2D /* APICallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICallback.swift; sourceTree = "<group>"; };
+		5C8E3518237F8624003B0A2D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8E3519237F8624003B0A2D /* Call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		5C8E351A237F8624003B0A2D /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		5C8E3543237F8708003B0A2D /* TFLKitClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFLKitClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8E354E237F8708003B0A2D /* TFLKitClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFLKitClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8E3562237F8B0A003B0A2D /* TFLKitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFLKitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8E3564237F8B0A003B0A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C8E3568237F8B0A003B0A2D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5C8E356D237F8B0A003B0A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C8E356F237F8B0B003B0A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C8E3572237F8B0B003B0A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C8E3574237F8B0B003B0A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8E3579237F8B0B003B0A2D /* TFLKitClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFLKitClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8E357D237F8B0B003B0A2D /* TFLKitClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLKitClientTests.swift; sourceTree = "<group>"; };
+		5C8E357F237F8B0B003B0A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8E3505237F7C2B003B0A2D /* APIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +121,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C8E3540237F8708003B0A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E354B237F8708003B0A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E355F237F8B0A003B0A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8E358D237F9E6D003B0A2D /* TFLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E3576237F8B0B003B0A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +158,10 @@
 			children = (
 				5C8E34E9237F7A13003B0A2D /* TFLKit */,
 				5C8E34F4237F7A14003B0A2D /* TFLKitTests */,
+				5C8E3563237F8B0A003B0A2D /* TFLKitClient */,
+				5C8E357C237F8B0B003B0A2D /* TFLKitClientTests */,
 				5C8E34E8237F7A13003B0A2D /* Products */,
+				5C8E3588237F9B85003B0A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +170,10 @@
 			children = (
 				5C8E34E7237F7A13003B0A2D /* TFLKit.framework */,
 				5C8E34F0237F7A14003B0A2D /* TFLKitTests.xctest */,
+				5C8E3543237F8708003B0A2D /* TFLKitClientTests.xctest */,
+				5C8E354E237F8708003B0A2D /* TFLKitClientUITests.xctest */,
+				5C8E3562237F8B0A003B0A2D /* TFLKitClient.app */,
+				5C8E3579237F8B0B003B0A2D /* TFLKitClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +181,9 @@
 		5C8E34E9237F7A13003B0A2D /* TFLKit */ = {
 			isa = PBXGroup;
 			children = (
+				5C8E3509237F8624003B0A2D /* APIKit */,
 				5C8E34EA237F7A13003B0A2D /* TFLKit.h */,
+				5C8E3501237F7A23003B0A2D /* TFLKit.swift */,
 				5C8E34EB237F7A13003B0A2D /* Info.plist */,
 			);
 			path = TFLKit;
@@ -86,6 +198,73 @@
 			path = TFLKitTests;
 			sourceTree = "<group>";
 		};
+		5C8E3509237F8624003B0A2D /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E350A237F8624003B0A2D /* APIError.swift */,
+				5C8E350B237F8624003B0A2D /* APIModel.swift */,
+				5C8E350C237F8624003B0A2D /* APIKit.h */,
+				5C8E350D237F8624003B0A2D /* Result.swift */,
+				5C8E350E237F8624003B0A2D /* Internal */,
+				5C8E3512237F8624003B0A2D /* APICall.swift */,
+				5C8E3513237F8624003B0A2D /* SampleClient */,
+				5C8E3516237F8624003B0A2D /* Observable.swift */,
+				5C8E3517237F8624003B0A2D /* APICallback.swift */,
+				5C8E3518237F8624003B0A2D /* Info.plist */,
+				5C8E3519237F8624003B0A2D /* Call.swift */,
+				5C8E351A237F8624003B0A2D /* Endpoint.swift */,
+			);
+			path = APIKit;
+			sourceTree = "<group>";
+		};
+		5C8E350E237F8624003B0A2D /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E350F237F8624003B0A2D /* RequestSender.swift */,
+				5C8E3510237F8624003B0A2D /* HTTPMethod.swift */,
+				5C8E3511237F8624003B0A2D /* SomeModel.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		5C8E3513237F8624003B0A2D /* SampleClient */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E3514237F8624003B0A2D /* Demo.swift */,
+				5C8E3515237F8624003B0A2D /* API.swift */,
+			);
+			path = SampleClient;
+			sourceTree = "<group>";
+		};
+		5C8E3563237F8B0A003B0A2D /* TFLKitClient */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E3564237F8B0A003B0A2D /* AppDelegate.swift */,
+				5C8E3568237F8B0A003B0A2D /* FirstViewController.swift */,
+				5C8E356C237F8B0A003B0A2D /* Main.storyboard */,
+				5C8E356F237F8B0B003B0A2D /* Assets.xcassets */,
+				5C8E3571237F8B0B003B0A2D /* LaunchScreen.storyboard */,
+				5C8E3574237F8B0B003B0A2D /* Info.plist */,
+			);
+			path = TFLKitClient;
+			sourceTree = "<group>";
+		};
+		5C8E357C237F8B0B003B0A2D /* TFLKitClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E357D237F8B0B003B0A2D /* TFLKitClientTests.swift */,
+				5C8E357F237F8B0B003B0A2D /* Info.plist */,
+			);
+			path = TFLKitClientTests;
+			sourceTree = "<group>";
+		};
+		5C8E3588237F9B85003B0A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +272,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8E351D237F8624003B0A2D /* APIKit.h in Headers */,
 				5C8E34F8237F7A14003B0A2D /* TFLKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +294,9 @@
 			dependencies = (
 			);
 			name = TFLKit;
+			packageProductDependencies = (
+				5C8E3504237F7C2B003B0A2D /* APIKit */,
+			);
 			productName = TFLKit;
 			productReference = 5C8E34E7237F7A13003B0A2D /* TFLKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -136,6 +319,76 @@
 			productReference = 5C8E34F0237F7A14003B0A2D /* TFLKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5C8E3542237F8708003B0A2D /* TFLKitClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8E3558237F8708003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClientTests" */;
+			buildPhases = (
+				5C8E353F237F8708003B0A2D /* Sources */,
+				5C8E3540237F8708003B0A2D /* Frameworks */,
+				5C8E3541237F8708003B0A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFLKitClientTests;
+			productName = TFLKitClientTests;
+			productReference = 5C8E3543237F8708003B0A2D /* TFLKitClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C8E354D237F8708003B0A2D /* TFLKitClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8E355B237F8708003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClientUITests" */;
+			buildPhases = (
+				5C8E354A237F8708003B0A2D /* Sources */,
+				5C8E354B237F8708003B0A2D /* Frameworks */,
+				5C8E354C237F8708003B0A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFLKitClientUITests;
+			productName = TFLKitClientUITests;
+			productReference = 5C8E354E237F8708003B0A2D /* TFLKitClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5C8E3561237F8B0A003B0A2D /* TFLKitClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8E3580237F8B0B003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClient" */;
+			buildPhases = (
+				5C8E355E237F8B0A003B0A2D /* Sources */,
+				5C8E355F237F8B0A003B0A2D /* Frameworks */,
+				5C8E3560237F8B0A003B0A2D /* Resources */,
+				5C8E358F237F9E6D003B0A2D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFLKitClient;
+			productName = TFLKitClient;
+			productReference = 5C8E3562237F8B0A003B0A2D /* TFLKitClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C8E3578237F8B0B003B0A2D /* TFLKitClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8E3583237F8B0B003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClientTests" */;
+			buildPhases = (
+				5C8E3575237F8B0B003B0A2D /* Sources */,
+				5C8E3576237F8B0B003B0A2D /* Frameworks */,
+				5C8E3577237F8B0B003B0A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C8E357B237F8B0B003B0A2D /* PBXTargetDependency */,
+			);
+			name = TFLKitClientTests;
+			productName = TFLKitClientTests;
+			productReference = 5C8E3579237F8B0B003B0A2D /* TFLKitClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,9 +401,25 @@
 				TargetAttributes = {
 					5C8E34E6237F7A13003B0A2D = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 					5C8E34EF237F7A14003B0A2D = {
 						CreatedOnToolsVersion = 11.2;
+					};
+					5C8E3542237F8708003B0A2D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 5C8E352D237F8706003B0A2D;
+					};
+					5C8E354D237F8708003B0A2D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 5C8E352D237F8706003B0A2D;
+					};
+					5C8E3561237F8B0A003B0A2D = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					5C8E3578237F8B0B003B0A2D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 5C8E3561237F8B0A003B0A2D;
 					};
 				};
 			};
@@ -163,12 +432,19 @@
 				Base,
 			);
 			mainGroup = 5C8E34DD237F7A13003B0A2D;
+			packageReferences = (
+				5C8E3503237F7C2B003B0A2D /* XCRemoteSwiftPackageReference "APIKit" */,
+			);
 			productRefGroup = 5C8E34E8237F7A13003B0A2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5C8E34E6237F7A13003B0A2D /* TFLKit */,
 				5C8E34EF237F7A14003B0A2D /* TFLKitTests */,
+				5C8E3542237F8708003B0A2D /* TFLKitClientTests */,
+				5C8E354D237F8708003B0A2D /* TFLKitClientUITests */,
+				5C8E3561237F8B0A003B0A2D /* TFLKitClient */,
+				5C8E3578237F8B0B003B0A2D /* TFLKitClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +464,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C8E3541237F8708003B0A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E354C237F8708003B0A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E3560237F8B0A003B0A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8E3573237F8B0B003B0A2D /* LaunchScreen.storyboard in Resources */,
+				5C8E3570237F8B0B003B0A2D /* Assets.xcassets in Resources */,
+				5C8E356E237F8B0A003B0A2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E3577237F8B0B003B0A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +502,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8E3529237F8624003B0A2D /* Endpoint.swift in Sources */,
+				5C8E3525237F8624003B0A2D /* Observable.swift in Sources */,
+				5C8E3521237F8624003B0A2D /* SomeModel.swift in Sources */,
+				5C8E3502237F7A23003B0A2D /* TFLKit.swift in Sources */,
+				5C8E3523237F8624003B0A2D /* Demo.swift in Sources */,
+				5C8E3528237F8624003B0A2D /* Call.swift in Sources */,
+				5C8E351C237F8624003B0A2D /* APIModel.swift in Sources */,
+				5C8E3524237F8624003B0A2D /* API.swift in Sources */,
+				5C8E3520237F8624003B0A2D /* HTTPMethod.swift in Sources */,
+				5C8E351F237F8624003B0A2D /* RequestSender.swift in Sources */,
+				5C8E351E237F8624003B0A2D /* Result.swift in Sources */,
+				5C8E3522237F8624003B0A2D /* APICall.swift in Sources */,
+				5C8E351B237F8624003B0A2D /* APIError.swift in Sources */,
+				5C8E3526237F8624003B0A2D /* APICallback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +527,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C8E353F237F8708003B0A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E354A237F8708003B0A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E355E237F8B0A003B0A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8E3569237F8B0A003B0A2D /* FirstViewController.swift in Sources */,
+				5C8E3565237F8B0A003B0A2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8E3575237F8B0B003B0A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8E357E237F8B0B003B0A2D /* TFLKitClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +566,31 @@
 			target = 5C8E34E6237F7A13003B0A2D /* TFLKit */;
 			targetProxy = 5C8E34F2237F7A14003B0A2D /* PBXContainerItemProxy */;
 		};
+		5C8E357B237F8B0B003B0A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C8E3561237F8B0A003B0A2D /* TFLKitClient */;
+			targetProxy = 5C8E357A237F8B0B003B0A2D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C8E356C237F8B0A003B0A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8E356D237F8B0A003B0A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C8E3571237F8B0B003B0A2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8E3572237F8B0B003B0A2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5C8E34F9237F7A14003B0A2D /* Debug */ = {
@@ -340,13 +716,18 @@
 		5C8E34FC237F7A14003B0A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SRT43Q98Z4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TFLKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +736,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,13 +745,18 @@
 		5C8E34FD237F7A14003B0A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SRT43Q98Z4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TFLKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +773,7 @@
 		5C8E34FF237F7A14003B0A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TFLKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +791,7 @@
 		5C8E3500237F7A14003B0A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TFLKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,6 +803,166 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C8E3559237F8708003B0A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TFLKitClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFLKitClient.app/TFLKitClient";
+			};
+			name = Debug;
+		};
+		5C8E355A237F8708003B0A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TFLKitClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFLKitClient.app/TFLKitClient";
+			};
+			name = Release;
+		};
+		5C8E355C237F8708003B0A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TFLKitClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFLKitClient;
+			};
+			name = Debug;
+		};
+		5C8E355D237F8708003B0A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TFLKitClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFLKitClient;
+			};
+			name = Release;
+		};
+		5C8E3581237F8B0B003B0A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRT43Q98Z4;
+				INFOPLIST_FILE = TFLKitClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C8E3582237F8B0B003B0A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRT43Q98Z4;
+				INFOPLIST_FILE = TFLKitClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C8E3584237F8B0B003B0A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TFLKitClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFLKitClient.app/TFLKitClient";
+			};
+			name = Debug;
+		};
+		5C8E3585237F8B0B003B0A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TFLKitClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airlatech..TFLKitClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFLKitClient.app/TFLKitClient";
 			};
 			name = Release;
 		};
@@ -447,7 +996,62 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5C8E3558237F8708003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8E3559237F8708003B0A2D /* Debug */,
+				5C8E355A237F8708003B0A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8E355B237F8708003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8E355C237F8708003B0A2D /* Debug */,
+				5C8E355D237F8708003B0A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8E3580237F8B0B003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8E3581237F8B0B003B0A2D /* Debug */,
+				5C8E3582237F8B0B003B0A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8E3583237F8B0B003B0A2D /* Build configuration list for PBXNativeTarget "TFLKitClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8E3584237F8B0B003B0A2D /* Debug */,
+				5C8E3585237F8B0B003B0A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C8E3503237F7C2B003B0A2D /* XCRemoteSwiftPackageReference "APIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JeevanThandi/APIKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C8E3504237F7C2B003B0A2D /* APIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C8E3503237F7C2B003B0A2D /* XCRemoteSwiftPackageReference "APIKit" */;
+			productName = APIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C8E34DE237F7A13003B0A2D /* Project object */;
 }
